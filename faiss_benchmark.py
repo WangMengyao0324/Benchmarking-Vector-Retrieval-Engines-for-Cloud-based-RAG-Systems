@@ -16,7 +16,7 @@ queries = [
     "What is world politics?"
 ]
 
-print("Loading saved embeddings...")
+print("Loading saved embeddings......")
 embeddings = np.load("embeddings_100k.npy")
 texts = np.load("texts_100k.npy", allow_pickle=True)
 
